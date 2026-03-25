@@ -29,7 +29,7 @@ const analyticsRoutes = require('./routes/analytics');
 console.log("Loading error handler...");
 const errorHandler = require('./middleware/errorHandler');
 app.use('/api/auth', authRoutes);
-app.use('/api/tasks', taskRoutes);
+app.use('/api/tasks-clean', taskRoutes);
 app.use('/api/analytics', analyticsRoutes);
 
 // Error handler middleware
