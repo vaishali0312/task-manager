@@ -30,10 +30,14 @@ console.log("Loading error handler...");
 const errorHandler = require('./middleware/errorHandler');
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
-app.use('/api/analytics', analyticsRoutes);
 
-// Error handler middleware
-app.use(errorHandler);
+try {
+  console.log("Loading error handler...");
+  const errorHandler = require('./middleware/errorHandler');
+  app.use(errorHandler);
+} catch (err) {
+  console.error("Error handler load failed:", err);
+};
 
 const PORT = process.env.PORT || 5000;
 
