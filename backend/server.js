@@ -21,7 +21,7 @@ console.log("Loading auth routes...");
 const authRoutes = require('./routes/auth');
 
 console.log("Loading task routes...");
-const taskRoutes = require('./routes/tasks');
+const taskRoutes = require('./routes/tasks-clean');
 
 console.log("Loading analytics routes...");
 const analyticsRoutes = require('./routes/analytics');
