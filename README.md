@@ -9,10 +9,7 @@ Register/Login → Dashboard → Tasks Table + Modals → Analytics Charts
 Responsive mobile drawer, dark mode, pagination, search
 ```
 
-## Live Demo Screenshots
-| Login | Tasks CRUD | Analytics Charts |
-|-------|------------|------------------|
-| ![Login](https://i.imgur.com/login-demo.png) | ![Tasks](https://i.imgur.com/tasks-demo.png) | ![Analytics](https://i.imgur.com/analytics-demo.png) |
+
 
 ## API Documentation
 ```
@@ -30,5 +27,5 @@ GET /api/analytics → Charts data
 React + Vite ⚛️ | Tailwind/DaisyUI 🎨 | Chart.js 📊 | MongoDB Atlas 🗄️ | Node/Express 🚀
 ```
 
-**Full Stack MERN Complete - All Requirements Met!** Interview ready portfolio project.
+
 
