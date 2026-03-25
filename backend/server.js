@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 // Routes
 const authRoutes = require('./routes/auth');
-const taskRoutes = require('./routes/tasks-clean');
+const taskRoutes = require('./routes/tasks');
 const analyticsRoutes = require('./routes/analytics');
 const errorHandler = require('./middleware/errorHandler');
 
